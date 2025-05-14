@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import ProductHeader from '../components/ProductListHeader';
 import { StatusBar } from 'expo-status-bar';
+import Colors from '../utils/Colors';
 
 
 const ProductListScreen = ({ navigation }) => {
@@ -105,7 +106,7 @@ const styles = StyleSheet.create({
   price: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#007bff',
+    color: Colors.priceColor,
   },
   errorContainer: {
     flex: 1,
