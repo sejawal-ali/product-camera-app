@@ -9,6 +9,8 @@ import {
   StyleSheet,
 } from 'react-native';
 import ProductHeader from '../components/ProductListHeader';
+import { StatusBar } from 'expo-status-bar';
+
 
 const ProductListScreen = ({ navigation }) => {
   const [products, setProducts] = useState([]);
@@ -53,6 +55,7 @@ const ProductListScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
+      <StatusBar style="auto" />
         <ProductHeader />
       <FlatList
       
