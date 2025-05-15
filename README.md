@@ -17,3 +17,10 @@ This React Native mobile application (built with Expo) demonstrates a basic e-co
 - Expo Camera
 -  Hooks (useState, useEffect)
 - Fake Store API
+
+  ## 🚀 Installation & Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sejawal-ali/product-camera-app.git
+   cd product-camera-app
