@@ -1,25 +1,19 @@
 # 📱 Product Camera App (React Native)
 
-This is a React Native mobile app built using Expo that demonstrates a complete shopping experience with integrated camera functionality.
+This React Native mobile application (built with Expo) demonstrates a basic e-commerce experience with camera integration as per the assignment requirements.
 
 ## 🔧 Features
 
-- 📦 **Product Listing**: Fetches and displays products from the [Fake Store API](https://fakestoreapi.com/products) with images, titles, and prices.
-- 🛍️ **Product Details**: Shows full product info — image, title, price, category, and description.
-- 📷 **Camera Screen**: Opens device camera, allows capturing a photo, and gives options to **Retake** or **Confirm**.
-- 📲 **Navigation**: Smooth transitions between screens using React Navigation.
-- ⚠️ **Error & Loading States**: Displays proper states during API calls.
+- **Product List**: Fetches products from [Fake Store API](https://fakestoreapi.com/products) and displays image, title, and price.
+- **Product Detail**: On product tap, shows full image, title, price, category, and description.
+- **Camera Functionality**: Opens the device camera, allows the user to capture a photo, with options to retake or confirm.
+- **Smooth Navigation**: All screens are navigated using React Navigation.
+- **Error and Loading Handling**: Displays proper states when data is loading or if API fails.
 
-## 🖼️ Screenshots
+## 🧠 Tech Stack
 
-| Product List | Product Details | Camera |
-|--------------|------------------|--------|
-| ![Product List](assets\productsdetails.png) | ![Product Details](../../assets/productsdetails.png) | ![Camera](../../assets/cameraa.png) |
-
-
-## 🚀 Installation & Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sejawal-ali/product-camera-app.git
-   cd product-camera-app
+- React Native (Expo)
+- React Navigation
+- Expo Camera
+-  Hooks (useState, useEffect)
+- Fake Store API
