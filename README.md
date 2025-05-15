@@ -14,7 +14,7 @@ This is a React Native mobile app built using Expo that demonstrates a complete 
 
 | Product List | Product Details | Camera |
 |--------------|------------------|--------|
-| ![Product List](../../assets/productslist.png) | ![Product Details](../../assets/productsdetails.png) | ![Camera](../../assets/cameraa.png) |
+| ![Product List](assets\productsdetails.png) | ![Product Details](../../assets/productsdetails.png) | ![Camera](../../assets/cameraa.png) |
 
 
 ## 🚀 Installation & Setup
