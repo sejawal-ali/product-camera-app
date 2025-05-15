@@ -1,28 +1,40 @@
-// src/components/ProductHeader.js
-
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import { useNavigation } from '@react-navigation/native';
 
 const ProductHeader = () => {
+  const navigation = useNavigation();
   return (
     <View style={styles.headerContainer}>
-      <Text style={styles.headerText}>🛒 Product Listing</Text>
+      <TouchableOpacity onPress={() => navigation.goBack()} style={styles.icon}>
+        <Ionicons name="chevron-back" size={28} color="black" />
+      </TouchableOpacity>
+      <Text style={styles.title}>🛒 Product Listing</Text>
     </View>
   );
 };
 
+export default ProductHeader;
+
 const styles = StyleSheet.create({
-  
-  
-  headerText: {
-    fontSize: 25,
+  headerContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingTop: 35,
+    paddingBottom: 16,
+    justifyContent: 'center',
+    position: 'relative',
+  },
+  icon: {
+    position: 'absolute',
+    left: 16,
+    top: 35,
+    
+  },
+  title: {
+    fontSize: 22,
     fontWeight: 'bold',
     color: Colors.black,
-    letterSpacing: 1,
-    textAlign: 'center',
-    top: 30,
   },
 });
-
-export default ProductHeader;
