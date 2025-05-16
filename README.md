@@ -20,6 +20,9 @@ This React Native mobile application (built with Expo) demonstrates a basic e-co
 
   ## 🚀 Installation & Setup
 
+  - expo init product-camera-app
+  - npm start
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/sejawal-ali/product-camera-app.git
