@@ -15,7 +15,7 @@ This React Native mobile application (built with Expo) demonstrates a basic e-co
 - React Native (Expo)
 - React Navigation
 - Expo Camera
--  Hooks (useState, useEffect)
+-  Hooks (useState, useEffect, useRef)
 - Fake Store API
 
   ## 🚀 Installation & Setup
